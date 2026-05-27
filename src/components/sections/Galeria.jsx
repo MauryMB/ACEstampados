@@ -237,7 +237,7 @@ function Galeria() {
 
           <h2 className="text-4xl md:text-6xl font-bold text-black">
 
-            Nuestros Trabajos
+            Nuestros Trabajoss
 
           </h2>
 
