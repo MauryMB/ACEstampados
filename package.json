@@ -2,6 +2,7 @@
   "name": "acestampados",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://maurymb.github.io/ACEstampados",
   "type": "module",
   "scripts": {
     "dev": "vite",
