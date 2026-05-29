@@ -9,6 +9,18 @@ function Servicios() {
 
         {/* Título */}
         <div className="text-center mb-16">
+          <p className="
+            text-yellow-600
+            font-medium
+            uppercase
+            tracking-[0.3em]
+            text-sm
+            mb-4
+          ">
+
+            Servicios
+
+          </p>
 
           <h2 className="text-4xl md:text-5xl font-bold text-black">
             Nuestros Servicios
