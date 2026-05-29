@@ -83,24 +83,28 @@ function Galeria() {
           titulo="Playeras Personalizadas"
           imagenes={imagenesPlayeras}
           align="left"
+          delay={3000}
         />
 
         <CarruselCategoria
           titulo="Estampado de Logos"
           imagenes={imagenesLogos}
           align="right"
+          delay={4200}
         />
 
         <CarruselCategoria
           titulo="Bolsas Personalizadas"
           imagenes={imagenesBolsas}
           align="left"
+          delay={5400}
         />
 
         <CarruselCategoria
           titulo="Prendas para Eventos"
           imagenes={imagenesPrendas}
           align="right"
+          delay={6600}
         />
 
       </div>
