@@ -27,15 +27,37 @@ function CarruselCategoria({
 
         {/* Título */}
         <div
-          className={`mb-8 ${
-            align === "right"
-              ? "text-right"
-              : "text-left"
-          }`}
+          className={`mb-10 ${align === "right"
+            ? "text-right"
+            : "text-left"
+            }`}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-black">
+
+          <h2
+            className="
+      text-3xl
+      md:text-4xl
+      font-bold
+      text-black
+    "
+          >
             {titulo}
           </h2>
+
+          <div
+            className={`
+      mt-4
+      h-1
+      bg-yellow-500
+      rounded-full
+
+      ${align === "right"
+                ? "ml-auto w-28"
+                : "w-28"
+              }
+    `}
+          />
+
         </div>
 
         {/* Carrusel */}

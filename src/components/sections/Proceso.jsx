@@ -38,7 +38,7 @@ function Proceso() {
   ];
 
   return (
-    <section className="w-full py-24 bg-white">
+    <section id="Proceso" className="scroll-mt-28 w-full py-24 bg-white">
 
       <div className="max-w-7xl mx-auto px-6">
 

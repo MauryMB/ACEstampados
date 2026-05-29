@@ -44,7 +44,7 @@ function Galeria() {
 
   return (
 
-    <section className="w-full py-28 bg-[#F5F2EA]">
+    <section id="Galeria" className=" scroll-mt-28 w-full py-28 bg-[#F5F2EA]">
 
       <div className="max-w-7xl mx-auto px-6">
 

@@ -14,7 +14,7 @@ function Navbar() {
 
         {/* Logo */}
         <a
-          href="#"
+          href="#Inicio"
           className="flex items-center gap-3"
         >
 
@@ -49,7 +49,7 @@ function Navbar() {
 
           <li>
             <a
-              href="#"
+              href="#Inicio"
               className="hover:text-yellow-500 transition"
             >
               Inicio
@@ -58,7 +58,7 @@ function Navbar() {
 
           <li>
             <a
-              href="#"
+              href="#Servicios"
               className="hover:text-yellow-500 transition"
             >
               Servicios
@@ -67,7 +67,7 @@ function Navbar() {
 
           <li>
             <a
-              href="#"
+              href="#Galeria"
               className="hover:text-yellow-500 transition"
             >
               Galería
@@ -76,7 +76,7 @@ function Navbar() {
 
           <li>
             <a
-              href="#"
+              href="#Footer"
               className="hover:text-yellow-500 transition"
             >
               Contacto
@@ -96,7 +96,7 @@ function Navbar() {
 
               <li>
                 <a
-                  href="#"
+                  href="#Inicio"
                   className="hover:text-yellow-500 transition"
                 >
                   Inicio
@@ -105,7 +105,7 @@ function Navbar() {
 
               <li>
                 <a
-                  href="#"
+                  href="#Servicios"
                   className="hover:text-yellow-500 transition"
                 >
                   Servicios
@@ -114,7 +114,7 @@ function Navbar() {
 
               <li>
                 <a
-                  href="#"
+                  href="#Galeria"
                   className="hover:text-yellow-500 transition"
                 >
                   Galería
@@ -123,7 +123,7 @@ function Navbar() {
 
               <li>
                 <a
-                  href="#"
+                  href="#Footer"
                   className="hover:text-yellow-500 transition"
                 >
                   Contacto

@@ -8,7 +8,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="w-full bg-[#111111] text-white py-16">
+    <footer id="Footer" className="scroll-mt-28 w-full bg-[#111111] text-white py-16">
 
       <div className="max-w-7xl mx-auto px-6">
 
