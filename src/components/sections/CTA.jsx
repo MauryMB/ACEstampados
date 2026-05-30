@@ -7,7 +7,7 @@ export const Whatsapp = (props) => (
 
 function CTA() {
   return (
-    <section id="CTA" className="scroll-mt-28 w-full py-24 bg-black">
+    <section id="CTA" className=" w-full py-24 bg-black">
 
       <div className="max-w-5xl mx-auto px-6 text-center">
 
@@ -36,7 +36,7 @@ function CTA() {
             className="inline-flex items-center gap-3 bg-yellow-400 text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:scale-105 transition"
           >
 
-            <Whatsapp/> Cotizar ahora
+            <Whatsapp/>Cotizar ahora
 
           </a>
 

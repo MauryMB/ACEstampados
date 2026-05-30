@@ -12,9 +12,8 @@ import "swiper/css/pagination";
 import "yet-another-react-lightbox/styles.css";
 
 function CarruselCategoria({
-  titulo,
+  encabezado,
   imagenes,
-  align = "left",
   delay = 3500,
 }) {
 
@@ -25,39 +24,9 @@ function CarruselCategoria({
     <>
       <div className="mb-24">
 
-        {/* Título */}
-        <div
-          className={`mb-10 ${align === "right"
-            ? "text-right"
-            : "text-left"
-            }`}
-        >
-
-          <h2
-            className="
-      text-3xl
-      md:text-4xl
-      font-bold
-      text-black
-    "
-          >
-            {titulo}
-          </h2>
-
-          <div
-            className={`
-      mt-4
-      h-1
-      bg-yellow-500
-      rounded-full
-
-      ${align === "right"
-                ? "ml-auto w-28"
-                : "w-28"
-              }
-    `}
-          />
-
+        {/* Encabezado personalizado */}
+        <div className="mb-10">
+          {encabezado}
         </div>
 
         {/* Carrusel */}
@@ -92,7 +61,6 @@ function CarruselCategoria({
             },
           }}
         >
-
           {imagenes.map((imagen, index) => (
 
             <SwiperSlide key={index}>
@@ -112,7 +80,7 @@ function CarruselCategoria({
 
                 <img
                   src={imagen}
-                  alt={`${titulo} ${index + 1}`}
+                  alt={`Imagen ${index + 1}`}
                   onClick={() => {
                     setIndexActual(index);
                     setOpen(true);
@@ -134,12 +102,10 @@ function CarruselCategoria({
             </SwiperSlide>
 
           ))}
-
         </Swiper>
 
       </div>
 
-      {/* Lightbox */}
       <Lightbox
         open={open}
         close={() => setOpen(false)}

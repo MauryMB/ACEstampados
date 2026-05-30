@@ -1,4 +1,10 @@
 import logo from "../../assets/logos/aclogo.png";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTiktok,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 import {
   Phone,
@@ -8,7 +14,7 @@ import {
 
 function Footer() {
   return (
-    <footer id="Footer" className="scroll-mt-28 w-full bg-[#111111] text-white py-16">
+    <footer id="Footer" className="w-full bg-[#111111] text-white py-16">
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -25,9 +31,13 @@ function Footer() {
                 className="w-16 h-16 object-contain"
               />
 
-              <h2 className="text-2xl font-bold">
-                AC Estampados
-              </h2>
+              <span className="text-xl font-bold">
+
+                AC {" "}
+                <span className="text-yellow-500">
+                  Estampados
+                </span>
+              </span>
 
             </div>
 
@@ -92,7 +102,91 @@ function Footer() {
               Redes Sociales
             </h3>
 
-           
+            <p className="text-gray-400 mb-6">
+              Síguenos para conocer nuestros
+              trabajos más recientes.
+            </p>
+
+            <div className="flex gap-4">
+
+              {/* Facebook */}
+              <a
+                href="https://www.facebook.com/Estampa2AC"
+                target="_blank"
+                rel="noreferrer"
+                className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center
+                  hover:bg-yellow-500
+                  hover:text-black
+                  transition"
+              >
+                <FaFacebookF size={20} />
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/ac.estampa2"
+                target="_blank"
+                rel="noreferrer"
+                className="
+        w-12
+        h-12
+        rounded-full
+        bg-white/10
+        flex
+        items-center
+        justify-center
+        hover:bg-yellow-500
+        hover:text-black
+        transition
+      "
+              >
+                <FaInstagram size={20} />
+              </a>
+
+              {/* TikTok */}
+              <a
+                href="https://www.tiktok.com/@ac.estampa2"
+                target="_blank"
+                rel="noreferrer"
+                className="
+        w-12
+        h-12
+        rounded-full
+        bg-white/10
+        flex
+        items-center
+        justify-center
+        hover:bg-yellow-500
+        hover:text-black
+        transition
+      "
+              >
+                <FaTiktok size={20} />
+              </a>
+
+              {/* WhatsApp */}
+              <a
+                href="https://wa.me/526241615885"
+                target="_blank"
+                rel="noreferrer"
+                className="
+        w-12
+        h-12
+        rounded-full
+        bg-white/10
+        flex
+        items-center
+        justify-center
+        hover:bg-yellow-500
+        hover:text-black
+        transition
+      "
+              >
+                <FaWhatsapp size={20} />
+              </a>
+
+            </div>
+
           </div>
 
         </div>

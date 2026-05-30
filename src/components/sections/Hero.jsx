@@ -7,7 +7,7 @@ export const Whatsapp = (props) => (
 
 function Hero() {
   return (
-    <section id="Inicio" className="scroll-mt-28 w-full min-h-dvh bg-[#F5F2EA] flex items-center overflow-hidden">
+    <section id="Inicio" className="w-full min-h-dvh bg-[#F5F2EA] flex items-center overflow-hidden">
 
       <div className="max-w-5xl mx-auto px-6 py-24 w-full flex flex-col items-center text-center">
 
@@ -59,9 +59,9 @@ function Hero() {
 
           <a
             href="https://wa.me/526241615885"
-            className="bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition duration-300 font-medium flex items-center justify-center "
+            className="bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition duration-300 font-medium flex items-center gap-2"
           >
-           <Whatsapp /> Cotizar ahora
+            < Whatsapp />Cotizar ahora 
           </a>
 
           <a

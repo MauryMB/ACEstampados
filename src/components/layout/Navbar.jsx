@@ -24,8 +24,14 @@ function Navbar() {
             className="w-14 h-14 object-contain"
           />
 
-          <span className="text-2xl font-bold text-black">
-            AC Estampados
+          <span className="text-xl font-bold">
+            <span className="text-black">
+              AC 
+            </span>{" "}
+
+            <span className="text-yellow-500">
+              Estampados
+            </span>
           </span>
 
         </a>

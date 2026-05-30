@@ -3,7 +3,7 @@ import { Shirt, ShoppingBag, PaintBucket, Package } from "lucide-react";
 
 function Servicios() {
   return (
-    <section id="Servicios" className="scroll-mt-28 w-full py-24 bg-white">
+    <section id="Servicios" className="w-full py-24 bg-white">
 
       <div className="max-w-7xl mx-auto px-6">
 
